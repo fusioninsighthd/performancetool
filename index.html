@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-us" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Choose a language · FusionData Ecosystem</title>
+    </head>
+
+  <body>
+
+  <script>
+  var language = window.navigator.userLanguage || window.navigator.language;
+  if (language.startsWith("zh")) {
+      window.location.href='zh-hans/';
+  } else {
+      window.location.href='en/';
+  }
+  </script>
+
+  <div class="book-langs-index" role="navigation">
+      <div class="inner">
+          <h3>Choose a language</h3>
+          <ul class="languages">
+              <li>
+                  <a href="en/">English</a>
+              </li>
+              <li>
+                  <a href="zh-hans/">中文</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+  </body>
+</html>
