@@ -1,6 +1,6 @@
 site_name: FusionInsight HD测试工具
-repo_name: 'fusioninsighthd/testtools'
-repo_url: 'https://github.com/fusioninsighthd/testtools/tree/zh-hans'
+repo_name: 'fusioninsighthd/testing-tools'
+repo_url: 'https://github.com/fusioninsighthd/testing-tools/tree/zh-hans'
 
 theme:
   name: 'material'
@@ -10,6 +10,21 @@ theme:
     accent: 'Indigo'
   feature:
     tabs: false
+    
+nav:
+- HDFS:
+  - TestDFSIO:
+    - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite.md
+    - DataNode随机读性能: HDFS/TestDFSIO/DataNodeRandomRead.md
+    - NameNode随机写性能: HDFS/TestDFSIO/NameNodeRandomWrite.md
+    - NameNode随机读性能: HDFS/TestDFSIO/NameNodeRandomRead.md
+  - Dynamometer:
+    - NameNode测试: xx.md
+    
+- Hive:
+  - TPC-DS:
+    - SQL通用测试: x.md
+    
 
 extra:
   social:

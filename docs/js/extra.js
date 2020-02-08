@@ -1,6 +1,6 @@
 window.onload = function(){
-  document.getElementsByClassName('md-nav__title--site')[0].innerHTML ='<a href="https://fusioninsighthd.github.io/testtools/zh-hans" title="FusionInsight HD测试工具">FusionInsight HD测试工具</a>'
-  document.getElementsByClassName('md-header-nav__title')[0].innerHTML = '<a href="https://fusioninsighthd.github.io/testtools/zh-hans" title="FusionInsight HD测试工具">FusionInsight HD测试工具</a><a style="margin-left: 20px;font-size: .55rem;color: #000000ba;border-radius: 2px;background-color: #ffffff75;" href="https://fusioninsighthd.github.io/testtools/en">en</a>'
+  document.getElementsByClassName('md-nav__title--site')[0].innerHTML ='<a href="https://fusioninsighthd.github.io/testing-tools/zh-hans" title="FusionInsight HD测试工具">FusionInsight HD测试工具</a>'
+  document.getElementsByClassName('md-header-nav__title')[0].innerHTML = '<a href="https://fusioninsighthd.github.io/testing-tools/zh-hans" title="FusionInsight HD测试工具">FusionInsight HD测试工具</a><a style="margin-left: 20px;font-size: .55rem;color: #000000ba;border-radius: 2px;background-color: #ffffff75;" href="https://fusioninsighthd.github.io/testing-tools/en">en</a>'
 
   var scrolldiv = $('.details')[0].scrollTop;
 var existheader = $('.tg >thead');
