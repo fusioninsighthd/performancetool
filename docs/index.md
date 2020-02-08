@@ -29,7 +29,7 @@
 
 <tr>
 
-<td rowspan=5 ><img class="navbar-logo" src="/images/elephant.png"><i aria-hidden="true"></i></br>HDFS</td>
+<td rowspan=5 ><img class="navbar-logo" src="https://hadoop.apache.org/elephant.png"><i aria-hidden="true"></i></br>HDFS</td>
 <td rowspan=4 ><i aria-hidden="true">TestDFSIO</td>
 <td>NameNode随机写性能</td>
 <td></td>
@@ -108,7 +108,7 @@
 </tr>
 
 <tr>
-<td rowspan=4 ><img class="navbar-logo" src="/images/elephant.png"><i aria-hidden="true"></i></br>Yarn</td>
+<td rowspan=4 ><img class="navbar-logo" src="https://hadoop.apache.org/elephant.png"><i aria-hidden="true"></i></br>Yarn</td>
 <td rowspan=4 ><i aria-hidden="true">HiBench6.0</td>
 <td>TeraSort</td>
 <td></td>
