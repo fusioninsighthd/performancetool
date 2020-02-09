@@ -6,6 +6,8 @@
 华为FusionInsight HD支持开源标准的Hadoop接口，兼容开源的Hadoop测试工具，因部分开源工具未考虑安全认证，故给出开源工具适配华为FI HD集群的测试操作指导！
 </br>使用maven构建的依赖包下载地址为<a href="https://support.huawei.com/enterprise/zh/cloud-computing/fusioninsight-tool-pid-21624171/software/250709838?idAbsPath=fixnode01%7C7919749%7C7941815%7C19942925%7C21624171
 ">[6.5.1maven源]</a>，下载后覆盖本地maven仓库即可！
+<br/>
+华为大数据平台推荐学习视频课程：<a href="https://ilearningx.huawei.com/portal/courses/HuaweiX+EBGTC00000163/about">[传送门]</a>
 
 <table class="tg">
  <thead>
