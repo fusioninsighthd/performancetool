@@ -14,16 +14,65 @@ theme:
 nav:
 - HDFS:
   - TestDFSIO:
-    - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite.md
-    - DataNode随机读性能: HDFS/TestDFSIO/DataNodeRandomRead.md
     - NameNode随机写性能: HDFS/TestDFSIO/NameNodeRandomWrite.md
     - NameNode随机读性能: HDFS/TestDFSIO/NameNodeRandomRead.md
-  - Dynamometer:
-    - NameNode测试: xx.md
+    - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite.md
+    - DataNode随机读性能: HDFS/TestDFSIO/DataNodeRandomRead.md
+
+- Yarn:
+  - HiBench6.0:
+    - TeraSort: x.md
+    - WordCount: x.md
+    - 贝叶斯分类: x.md
+    - K均值聚类: x.md
     
 - Hive:
   - TPC-DS:
     - SQL通用测试: x.md
+
+- HBase:
+  - PerformanceEvaluation:
+    - 通用读写测试:x.md
+  - YCSB:
+    - 读写混合测试:x.md
+  - buldload:
+    - 离线入库测试: x.md
+
+- Spark2X:
+  - HiBench:
+    - HadoopWordCount: x.md
+  - TPC-DS:
+    - 通用SQL测试: x.md
+  - StructuredStreaming:
+    - 流式查询性能测试: x.md
+
+- Kafka:
+  - 自带脚本测试:
+    - 生产、消费性能: x.md
+    
+- Storm:
+  - HiBench6.0:
+    - WordCount模式性能: x.md
+    - fixwindow模式性能: x.md
+    - identity模式性能: x.md
+
+- Redis:
+  - 华为自研工具:
+    - 数据类型String读写性能: x.md
+    - 数据类型Hash读写性能: x.md
+    - 数据类型List读写性能: x.md
+    
+- Flink:
+  - Streaming Benchmark:
+    - 吞吐量性能测试: x.md
+
+- Solr:
+  - 华为自研工具:
+    - 入库、查询性能测试: x.md
+
+- ElasticSearch:
+  - 华为自研esarrayGA:
+    - 入库、查询性能测试: x.md
     
 
 extra:

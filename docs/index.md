@@ -16,7 +16,7 @@
  <tr>
   <td rowspan=2>组件名称</td>
   <td rowspan=2>工具名称</td>
-  <td rowspan=2 class="">开源源码</br>FI安全认证源码</td>
+  <td rowspan=2>开源源码及FI安全认证源码</td>
   <td rowspan=2>测试场景</td>
   <td rowspan=1 colspan=2>8.0</td>
   <td rowspan=1 colspan=2>6.5.1</td>
@@ -30,15 +30,14 @@
 </thead>
 <!-- 如下是HDFS部分 -->
 <tr>
-	<td rowspan=4 ><img class="navbar-logo" src="https://hadoop.apache.org/elephant.png"></i></br>HDFS</td>
-
+	<td rowspan=4 >HDFS</td>
 	<td rowspan=4 >TestDFSIO</td>
 	<td rowspan=4 >
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
 		</br>
 		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
 	</td>
-	
+
 		<td>NameNode随机写性能</td>
 		<td>
 		<!--<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a> -->
@@ -53,7 +52,7 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未  验 证</span></a>
 		</td>
-	
+
 		<tr>
 		<td>NameNode随机读性能</td>
 		<td>
@@ -105,7 +104,7 @@
 
 <!-- 如下是Yarn部分 -->
 <tr>
-	<td rowspan=4 ><img class="navbar-logo" src="https://hadoop.apache.org/elephant.png"><i aria-hidden="true"></i></br>Yarn</td>
+	<td rowspan=4 >Yarn</td>
 	<td rowspan=4 >HiBench6.0</td>
 	<td rowspan=4 >
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
@@ -178,7 +177,7 @@
 
 <!-- 如下是Hive部分 -->
 <tr>
-<td rowspan=1 ><img class="navbar-logo" src="https://hive.apache.org/images/hive_logo_medium.jpg"><i aria-hidden="true"></i></br>Hive</td>
+<td rowspan=1 >Hive</td>
 		<td>TPC-DS</td>
 		<td>
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
@@ -202,7 +201,7 @@
 
 <!-- 如下是HBase部分 -->
 <tr>
-<td rowspan=3 ><img class="navbar-logo" src="https://hbase.apache.org/images/hbase_logo_with_orca_large.png"><i aria-hidden="true"></i></br>HBase</td>
+<td rowspan=3 >HBase</td>
 		<td>PerformanceEvaluation</td>
 		<td>
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
@@ -271,7 +270,7 @@
 
 <!-- 如下是Spark2X部分 -->
 <tr>
-<td rowspan=3 ><img class="navbar-logo" src="http://spark.apache.org/images/spark-logo-trademark.png"><i aria-hidden="true"></i></br>Spark2X</td>
+<td rowspan=3 >Spark2X</td>
 		<td>HiBench</td>
 		<td>
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
@@ -338,8 +337,8 @@
 
 <!-- 如下是Kafka部分 -->
 <tr>
-<td rowspan=1 ><img class="navbar-logo" src="https://cwiki.apache.org/confluence/download/attachments/27821302/KAFKA?version=2&modificationDate=1391968911000&api=v2"><i aria-hidden="true"></i></br>Kafka</td>
-		<td>TPC-DS</td>
+<td rowspan=1 >Kafka</td>
+		<td>自带脚本测试</td>
 		<td>
 		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
 		</td>
@@ -361,7 +360,7 @@
 
 <!-- 如下是Storm部分 -->
 <tr>
-	<td rowspan=3 ><img class="navbar-logo" src="http://storm.apache.org/images/logo.png"><i aria-hidden="true"></i></br>Storm</td>
+	<td rowspan=3 >Storm</td>
 	<td rowspan=3 >HiBench6.0</td>
 	<td rowspan=3 >
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
@@ -418,7 +417,7 @@
 
 <!-- 如下是Redis部分 -->
 <tr>
-	<td rowspan=3 ><img class="navbar-logo" src="http://www.redis.cn/images/redis-white.png"><i aria-hidden="true"></i></br>Redis</td>
+	<td rowspan=3 >Redis</td>
 	<td rowspan=3 >华为自研工具</td>
 	<td rowspan=3 >
 		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
@@ -473,12 +472,12 @@
 
 <!-- 如下是Flink部分 -->
 <tr>
-		<td rowspan=1 ><img class="navbar-logo" src="https://flink.apache.org/img/flink-header-logo.svg"><i aria-hidden="true"></i></br>Flink</td>
+		<td rowspan=1 >Flink</td>
 		<td>Streaming Benchmark</td>
 		<td>
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
 		</td>
-		<td>吞吐量、性能测试</td>
+		<td>吞吐量性能测试</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -495,7 +494,7 @@
 
 <!-- 如下是Solr部分 -->
 <tr>
-<td rowspan=1 ><img class="navbar-logo" src="https://cwiki.apache.org/confluence/download/attachments/120722742/SOLR?version=1&modificationDate=1561758170000&api=v2"><i aria-hidden="true"></i></br>Solr</td>
+<td rowspan=1 >Solr</td>
 		<td>华为自研工具</td>
 		<td>
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
@@ -517,7 +516,7 @@
 
 <!-- 如下是ElasticSearch部分 -->
 <tr>
-<td rowspan=1 ><img class="navbar-logo" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1678738792,678722178&fm=26&gp=0.jpg"><i aria-hidden="true"></i></br>ElasticSearch</td>
+<td rowspan=1 >ElasticSearch</td>
 		<td>华为自研esarrayGA</td>
 		<td>
 		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
