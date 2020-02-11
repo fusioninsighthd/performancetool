@@ -54,22 +54,10 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		</tr>
 		
 		<tr>
 		<td>DataNode随机写性能</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -86,31 +74,19 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		</tr>
 </tr>
 
-<!-- 如下是Yarn部分 -->
+<!-- 如下是MapReduce部分 -->
 <tr>
-	<td rowspan=4 >Yarn</td>
+	<td rowspan=4 >MapReduce</td>
 	<td rowspan=4 >HiBench6.0</td>
 	<td rowspan=4 >
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="MapReduce/HiBench_introduction">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
-	</td>
+		<a href="MapReduce/HiBench-6.0.zip">[FI工具下载]</a>
+		</td>
 		<td>TeraSort</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -120,12 +96,6 @@
 		
 		<tr>
 		<td>WordCount</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -142,22 +112,10 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		</tr>
 
 		<tr>
 		<td>K均值聚类(Kmeans)</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -173,17 +131,11 @@
 <td rowspan=1 >Hive</td>
 		<td>TPC-DS</td>
 		<td>
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 				<td>hive-testbench测试通用SQL</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -197,9 +149,9 @@
 <td rowspan=3 >HBase</td>
 		<td>PerformanceEvaluation</td>
 		<td>
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>HBase源码自带测试工具</td>
 		<td>
@@ -208,27 +160,14 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-
 	<tr>
 		<td>YCSB</td>
 		<td>
-		<a href="https://github.com/brianfrankcooper/YCSB">[源码github]</a>
+		<a href="https://github.com/brianfrankcooper/YCSB">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>雅虎测试工具</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -240,17 +179,11 @@
 	<tr>
 		<td>bulkload</td>
 		<td>
-		<a href="https://github.com/brianfrankcooper/YCSB">[源码github]</a>
+		<a href="https://github.com/brianfrankcooper/YCSB">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>离线数据批量入库性能</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -266,9 +199,9 @@
 <td rowspan=3 >Spark2X</td>
 		<td>HiBench</td>
 		<td>
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>HadoopWordCount性能</td>
 		<td>
@@ -277,27 +210,14 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-
 	<tr>
 		<td>TPC-DS</td>
 		<td>
-		<a href="https://github.com/brianfrankcooper/YCSB">[源码github]</a>
+		<a href="https://github.com/brianfrankcooper/YCSB">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>通用SQL查询测试</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -309,15 +229,9 @@
 		<tr>
 		<td>StructuredStreaming</td>
 		<td>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>流式查询性能测试</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -333,15 +247,9 @@
 <td rowspan=1 >Kafka</td>
 		<td>自带脚本测试</td>
 		<td>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 		</td>
 		<td>生产、消费性能测试</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -356,17 +264,11 @@
 	<td rowspan=3 >Storm</td>
 	<td rowspan=3 >HiBench6.0</td>
 	<td rowspan=3 >
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 	</td>
 		<td>WordCount模式性能</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -376,12 +278,6 @@
 		
 		<tr>
 		<td>fixwindow模式性能</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -398,12 +294,6 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		</tr>
 
 </tr>
@@ -413,15 +303,9 @@
 	<td rowspan=3 >Redis</td>
 	<td rowspan=3 >华为自研工具</td>
 	<td rowspan=3 >
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="https://github.com/linkedin/dynamometer">[FI工具下载]</a>
 	</td>
 		<td>数据类型String读写性能</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -431,12 +315,6 @@
 		
 		<tr>
 		<td>数据类型Hash读写性能</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -453,12 +331,6 @@
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		</tr>
 
 </tr>
@@ -468,15 +340,9 @@
 		<td rowspan=1 >Flink</td>
 		<td>Streaming Benchmark</td>
 		<td>
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</td>
 		<td>吞吐量性能测试</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -490,15 +356,9 @@
 <td rowspan=1 >Solr</td>
 		<td>华为自研工具</td>
 		<td>
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</td>
 		<td>入库、查询性能测试</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>
@@ -512,15 +372,9 @@
 <td rowspan=1 >ElasticSearch</td>
 		<td>华为自研esarrayGA</td>
 		<td>
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="https://github.com/hortonworks/hive-testbench">[工具介绍]</a>
 		</td>
 		<td>入库、查询性能测试</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
-		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
 		</td>

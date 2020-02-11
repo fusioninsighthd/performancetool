@@ -14,6 +14,7 @@ theme:
 nav:
 - HDFS:
   - TestDFSIO:
+    - TestDFSIO工具介绍: HDFS/TestDFSIO_introduction.md
     - NameNode随机写性能: HDFS/TestDFSIO/NameNodeRandomWrite.md
     - NameNode随机读性能: HDFS/TestDFSIO/NameNodeRandomRead.md
     - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite.md
