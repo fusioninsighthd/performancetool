@@ -13,19 +13,16 @@
  <thead>
  <tr>
   <td colspan=4 >测试工具</td>
-  <td colspan=4>FusionInsight</td>
+  <td colspan=2>FusionInsight</td>
  </tr>
  <tr>
   <td rowspan=2>组件名称</td>
   <td rowspan=2>工具名称</td>
-  <td rowspan=2>开源源码及FI安全认证源码</td>
+  <td rowspan=2>工具介绍及下载</td>
   <td rowspan=2>测试场景</td>
-  <td rowspan=1 colspan=2>8.0</td>
   <td rowspan=1 colspan=2>6.5.1</td>
  </tr>
  <tr>
- <td>安全集群</td>
- <td>普通集群</td>
  <td>安全集群</td>
  <td>普通集群</td>
  </tr>
@@ -35,9 +32,9 @@
 	<td rowspan=4 >HDFS</td>
 	<td rowspan=4 >TestDFSIO</td>
 	<td rowspan=4 >
-		<a href="https://github.com/hortonworks/hive-testbench">[源码github]</a>
+		<a href="HDFS/TestDFSIO_introduction">[工具介绍]</a>
 		</br>
-		<a href="https://github.com/linkedin/dynamometer">[FI源码github]</a>
+		<a href="HDFS/hdfs.rar">[FI工具下载]</a>
 	</td>
 
 		<td>NameNode随机写性能</td>
@@ -47,12 +44,6 @@
 		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未 验证&nbsp;</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未  验 证</span></a>
-		</td>
-		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未  验 证</span></a>
 		</td>
 
 		<tr>
