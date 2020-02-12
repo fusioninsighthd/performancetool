@@ -306,6 +306,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 参考
+  </a>
+  
+</li>
+      
       
       
       
@@ -1237,6 +1244,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 参考
+  </a>
+  
+</li>
+      
       
       
       
@@ -1258,11 +1272,34 @@
                 
                 <h1 id="testdfsio">TestDFSIO工具介绍<a class="headerlink" href="#testdfsio" title="Permanent link">&para;</a></h1>
 <h2 id="1">1. 简介<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
-<p>TestDFSIO 工具为Hadoop源码中自带的一种测试工具，可以通过源码构建获得，工具名称一般为<code>hadoop-mapreduce-client-jobclient-[版本号]-test.jar</code>。</p>
+<p>TestDFSIO 工具为Hadoop源码中自带的一种测试工具，可以通过源码构建获得，工具名称一般为</p>
+<p><code>hadoop-mapreduce-client-jobclient-[版本号]-test.jar</code>。</p>
 <p>开源hadoop源码地址：<a href="https://github.com/apache/hadoop">https://github.com/apache/hadoop</a></p>
 <p>开源编译构建过程可参考：<a href="https://www.cnblogs.com/bclshuai/p/12009991.html">https://www.cnblogs.com/bclshuai/p/12009991.html</a></p>
 <p>TestDFSIO作为一种分布式I/O Benchmark测试工具，支持多种测试场景。下面根据其使用说明所支持的场景！</p>
 <h2 id="2">2. 使用指导<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>该工具通过命令行形式使用，使用参考：</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">#yarn jar /opt/client/HDFS/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.1.1-tests.jar  TestDFSIO</span>
+
+Usage: TestDFSIO <span class="o">[</span>genericOptions<span class="o">]</span> -read <span class="o">[</span>-random <span class="p">|</span> -backward <span class="p">|</span> -skip <span class="o">[</span>-skipSize Size<span class="o">]]</span> <span class="p">|</span> -write <span class="p">|</span> -append <span class="p">|</span> -truncate <span class="p">|</span> -clean <span class="o">[</span>-compression codecClassName<span class="o">]</span> <span class="o">[</span>-nrFiles N<span class="o">]</span> <span class="o">[</span>-size Size<span class="o">[</span>B<span class="p">|</span>KB<span class="p">|</span>MB<span class="p">|</span>GB<span class="p">|</span>TB<span class="o">]]</span> <span class="o">[</span>-resFile resultFileName<span class="o">]</span> <span class="o">[</span>-bufferSize Bytes<span class="o">]</span> <span class="o">[</span>-storagePolicy storagePolicyName<span class="o">]</span> <span class="o">[</span>-erasureCodePolicy erasureCodePolicyName<span class="o">]</span>
+</code></pre></div>
+
+<p>genericOptions  通用选项，参考 如下</p>
+<p><img alt="" src="../assets/hadoop_command_generic_options.png" /></p>
+<ul>
+<li>-read 读测试</li>
+<li>-write 写测试</li>
+<li>-append 追加测试，每个文件追加-size指定的数据量</li>
+<li>-truncate 截断测试，每个文件截断至-size指定的数据量</li>
+<li>-clean：清除TestDFSIO在HDFS上生成数据</li>
+<li>-n：文件个数</li>
+<li>-size：每个文件的大小</li>
+<li>-resFile：生成测试报告的本地文件路径</li>
+<li>-bufferSize：每个mapper任务读写文件所用到的缓存区大小，默认为1000000字节。</li>
+</ul>
+<h2 id="3">3. 参考<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p><a href="http://blog.sina.com.cn/s/blog_72ef7bea0102vr44.html">http://blog.sina.com.cn/s/blog_72ef7bea0102vr44.html</a></p>
+<p><a href="https://hadoop.apache.org/docs/r3.1.1/hadoop-project-dist/hadoop-common/CommandsManual.html#Generic_Options">https://hadoop.apache.org/docs/r3.1.1/hadoop-project-dist/hadoop-common/CommandsManual.html#Generic_Options</a></p>
                 
                   
                 
