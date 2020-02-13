@@ -20,19 +20,21 @@ nav:
     - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite.md
     - DataNode随机读性能: HDFS/TestDFSIO/DataNodeRandomRead.md
 
-- Yarn:
-  - HiBench6.0:
+- MapReduce:
+  - HiBench:
+    - HiBench工具介绍: MapReduce/HiBench_introduction.md
     - TeraSort: x.md
     - WordCount: x.md
     - 贝叶斯分类: x.md
     - K均值聚类: x.md
     
 - Hive:
-  - TPC-DS:
+  - Test-hivebench:
+    - Test-hivebench工具介绍: Hive/Testhivebench_introduction.md
     - SQL通用测试: x.md
 
 - HBase:
-  - PerformanceEvaluation:
+  - PerformanceEvaluation: 
     - 通用读写测试:x.md
   - YCSB:
     - 读写混合测试:x.md

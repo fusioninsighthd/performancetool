@@ -7,7 +7,18 @@
 </br>使用maven构建的依赖包下载地址为<a href="https://support.huawei.com/enterprise/zh/cloud-computing/fusioninsight-tool-pid-21624171/software/250709838?idAbsPath=fixnode01%7C7919749%7C7941815%7C19942925%7C21624171
 ">[6.5.1maven源]</a>，下载后覆盖本地maven仓库即可！
 <br/>
-华为大数据平台推荐学习视频课程：<a href="https://ilearningx.huawei.com/portal/courses/HuaweiX+EBGTC00000163/about">[传送门]</a>
+华为大数据平台推荐学习视频课程：<a href="https://ilearningx.huawei.com/portal/courses/HuaweiX+EBGTC00000163/about">[传送门]</a><br/>
+文件完整性MD5校验方法<br/>
+在windows环境中的cmd命令行中使用：
+<code>
+<span>certutil -hashfile  [待检测文件绝对路径] MD5</span>
+</code>
+<br/>
+在linux环境中的cmd命令行中使用：
+<code>
+<span>md5sum [待检测文件绝对路径] </span>
+</code>
+
 
 <table class="tg">
  <thead>
@@ -18,9 +29,9 @@
  <tr>
   <td rowspan=2>组件名称</td>
   <td rowspan=2>工具名称</td>
-  <td rowspan=2>工具介绍及下载</td>
+  <td rowspan=2>工具介绍</td>
   <td rowspan=2>测试场景</td>
-  <td rowspan=1 colspan=2>6.5.1</td>
+  <td rowspan=1 colspan=2>FI版本：6.5.1，对应<a href="apache-version">[开源版本]</td>
  </tr>
  <tr>
  <td>安全集群</td>
@@ -33,14 +44,12 @@
 	<td rowspan=4 >TestDFSIO</td>
 	<td rowspan=4 >
 		<a href="HDFS/TestDFSIO_introduction">[工具介绍]</a>
-		</br>
-		<a href="HDFS/hdfs.rar">[FI工具下载]</a>
 	</td>
 
 		<td>NameNode随机写性能</td>
 		<td>
-		<!--<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a> -->
-		<a href="Hive/TPC-DS_2.4_Sec"><span class="label label-Pass ">操作指导</span></a> 
+		<!--<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a> -->
+		<a href="HDFS/TestDFSIO_6.5.1_Sec"><span class="label label-Pass ">操作指导</span></a>
 		</td>
 		<td>
 		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未 验证&nbsp;</span></a>
@@ -49,30 +58,30 @@
 		<tr>
 		<td>NameNode随机读性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 		
 		<tr>
 		<td>DataNode随机写性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 		
 		<tr>
 		<td>DataNode随机读性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 </tr>
@@ -80,47 +89,47 @@
 <!-- 如下是MapReduce部分 -->
 <tr>
 	<td rowspan=4 >MapReduce</td>
-	<td rowspan=4 >HiBench6.0</td>
+	<td rowspan=4 >HiBench</td>
 	<td rowspan=4 >
 		<a href="MapReduce/HiBench_introduction">[工具介绍]</a>
 		</br>
-		<a href="MapReduce/HiBench-6.0.zip">[FI工具下载]</a>
+		<a href="MapReduce/HiBench-6.0.zip">[工具下载]</a>
 		</td>
 		<td>TeraSort</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		
 		<tr>
 		<td>WordCount</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 
 		<tr>
 		<td>贝叶斯分类(Bayes)</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 
 		<tr>
 		<td>K均值聚类(Kmeans)</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 </tr>
@@ -137,10 +146,10 @@
 		</td>
 				<td>hive-testbench测试通用SQL</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 </tr>
 
@@ -155,10 +164,10 @@
 		</td>
 		<td>HBase源码自带测试工具</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 	<tr>
 		<td>YCSB</td>
@@ -169,10 +178,10 @@
 		</td>
 		<td>雅虎测试工具</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 	</tr>
 	
@@ -185,10 +194,10 @@
 		</td>
 		<td>离线数据批量入库性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 	</tr>
 				
@@ -205,10 +214,10 @@
 		</td>
 		<td>HadoopWordCount性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 	<tr>
 		<td>TPC-DS</td>
@@ -219,10 +228,10 @@
 		</td>
 		<td>通用SQL查询测试</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 	</tr>
 	
@@ -233,10 +242,10 @@
 		</td>
 		<td>流式查询性能测试</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 	</tr>
 				
@@ -251,10 +260,10 @@
 		</td>
 		<td>生产、消费性能测试</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 </tr>
 
@@ -270,29 +279,29 @@
 	</td>
 		<td>WordCount模式性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		
 		<tr>
 		<td>fixwindow模式性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 
 		<tr>
 		<td>identity模式性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 
@@ -307,29 +316,29 @@
 	</td>
 		<td>数据类型String读写性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		
 		<tr>
 		<td>数据类型Hash读写性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 
 		<tr>
 		<td>数据类型List读写性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 
@@ -344,10 +353,10 @@
 		</td>
 		<td>吞吐量性能测试</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 </tr>
 
@@ -360,10 +369,10 @@
 		</td>
 		<td>入库、查询性能测试</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 </tr>
 
@@ -376,10 +385,10 @@
 		</td>
 		<td>入库、查询性能测试</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未验证</span></a>
+		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 </tr>
 
