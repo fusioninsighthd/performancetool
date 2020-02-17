@@ -14,7 +14,7 @@
 <span>certutil -hashfile  [待检测文件绝对路径] MD5</span>
 </code>
 <br/>
-在linux环境中的cmd命令行中使用：
+在linux环境中的命令行中使用：
 <code>
 <span>md5sum [待检测文件绝对路径] </span>
 </code>
@@ -41,47 +41,48 @@
 <!-- 如下是HDFS部分 -->
 <tr>
 	<td rowspan=4 >HDFS</td>
-	<td rowspan=4 >TestDFSIO</td>
-	<td rowspan=4 >
-		<a href="HDFS/TestDFSIO_introduction">[工具介绍]</a>
-	</td>
-
+	
+	<td rowspan=2 >NNBench</td>
+		<td rowspan=2 >
+			<a href="HDFS/NNBench/NNBench_introduction">[工具介绍]</a>
+		</td>
 		<td>NameNode随机写性能</td>
 		<td>
-		<!--<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a> -->
-		<a href="HDFS/TestDFSIO_6.5.1_Sec"><span class="label label-Pass ">操作指导</span></a>
+		<a href="HDFS/NNBench/NameNodeRandomWrite_6.5.1_Sec"><span class="label label-Pass ">操作指导</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">未 验证&nbsp;</span></a>
+		<a href="HDFS/NNBench/NameNodeRandomWrite_6.5.1_UnSec"><span class="label label-UnCheck ">未 验证&nbsp;</span></a>
 		</td>
 
 		<tr>
 		<td>NameNode随机读性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
+		<a href="HDFS/NNBench/NameNodeRandomRead_6.5.1_Sec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
+		<a href="HDFS/NNBench/NameNodeRandomRead_6.5.1_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
-		
-		<tr>
+	<tr>
+		<td rowspan=2 >TestDFSIO</td>
+		<td rowspan=2 >
+			<a href="HDFS/TestDFSIO/TestDFSIO_introduction">[工具介绍]</a>
+		</td>
+
 		<td>DataNode随机写性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
+		<a href="HDFS/TestDFSIO/DataNodeRandomWrite_6.5.1_Sec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
-		</td>
-		</tr>
-		
+		<a href="HDFS/TestDFSIO/DataNodeRandomWrite_6.5.1_UnSec"><span class="label label-UnCheck ">待验证</span></a>
+
 		<tr>
-		<td>DataNode随机读性能</td>
+			<td>DataNode随机读性能</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
+		<a href="HDFS/TestDFSIO/DataNodeRandomRead_6.5.1_Sec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		<td>
-		<a href="Hive/TPC-DS_2.4_UnSec"><span class="label label-UnCheck ">待验证</span></a>
+		<a href="HDFS/TestDFSIO/DataNodeRandomRead_6.5.1_UnSec"><span class="label label-UnCheck ">待验证</span></a>
 		</td>
 		</tr>
 </tr>

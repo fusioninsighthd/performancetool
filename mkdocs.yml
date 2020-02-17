@@ -13,12 +13,15 @@ theme:
     
 nav:
 - HDFS:
+  - NNBench:
+    - NNBench工具介绍: HDFS/NNBench/NNBench_introduction.md
+    - NameNode随机写性能[安全]: HDFS/NNBench/NameNodeRandomWrite_6.5.1_Sec.md
+    - NameNode随机读性能[安全]: HDFS/NNBench/NameNodeRandomRead_6.5.1_Sec.md
   - TestDFSIO:
-    - TestDFSIO工具介绍: HDFS/TestDFSIO_introduction.md
-    - NameNode随机写性能: HDFS/TestDFSIO/NameNodeRandomWrite.md
-    - NameNode随机读性能: HDFS/TestDFSIO/NameNodeRandomRead.md
-    - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite.md
-    - DataNode随机读性能: HDFS/TestDFSIO/DataNodeRandomRead.md
+    - TestDFSIO工具介绍: HDFS/TestDFSIO/TestDFSIO_introduction.md
+    - DataNode随机写性能: HDFS/TestDFSIO/DataNodeRandomWrite_6.5.1_Sec.md
+    - DataNode随机读性能: HDFS/TestDFSIO/DataNodeRandomRead_6.5.1_Sec.md
+
 
 - MapReduce:
   - HiBench:
